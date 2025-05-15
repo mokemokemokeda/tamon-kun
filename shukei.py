@@ -127,7 +127,7 @@ try:
         all_tweet_data.extend(tweet_data)
         print(f"　取得ツイート数: {len(tweet_data)}")
 
-        time.sleep(1800) # 30分ごとに取得
+        time.sleep(5) # 30分ごとに取得
 finally:
     driver.quit()
 
